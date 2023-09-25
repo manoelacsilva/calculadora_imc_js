@@ -61,13 +61,13 @@ h3 {
 }
 
 .input-box label {
-    font-size: 1.3rem;
+    font-size: 1.4rem;
     color: #fff;
     font-weight: 500;
-    align-items: start;
 }
 
 .input-box {
+    text-align: left;
     margin-top: 30px;
 }
 
@@ -117,7 +117,15 @@ h3 {
     font-size: 16px;
 }
 
+.final-step,
+.second-step {
+    display: none;
+}
 
+#resultado {
+    margin-top: 28px;
+    font-size: 1.4rem;
+}
 
 @media (max-width: 768px) {
     .container {
@@ -148,6 +156,10 @@ h3 {
     .input-field i {
         color: #fff;
         padding: 0.3rem 0.5rem;
+        font-size: 0.9rem;
+    }
+
+    .input-field input {
         font-size: 0.9rem;
     }
 }
