@@ -162,4 +162,9 @@ h3 {
     .input-field input {
         font-size: 0.9rem;
     }
+
+    #resultado {
+        margin-top: 28px;
+        font-size: 1rem;
+    }
 }
